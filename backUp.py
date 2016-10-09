@@ -37,7 +37,7 @@ entry_source = Tkinter.Entry(root)
 entry_source.grid(row=0,column=1)
 
 lbl_target = Tkinter.Label(root, text='Target')
-lbl_target_grid(row=1, column=0)
+lbl_target.grid(row=1, column=0)
 entry_target = Tkinter.Entry(root)
 entry_target.grid(row=1,column=1)
 
